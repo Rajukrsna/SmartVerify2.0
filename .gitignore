@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+.env
+
+# Logs
+logs/
+*.log
+
+# Build files
+edubot/build/
+backend/dist/
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store

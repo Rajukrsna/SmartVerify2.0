@@ -1,0 +1,31 @@
+<svg width="220" height="50" viewBox="0 0 220 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- "Smart" Text with Blue Gradient -->
+  <defs>
+    <linearGradient id="smartGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#4A90E2"/>
+      <stop offset="100%" stop-color="#1D62F0"/>
+    </linearGradient>
+  </defs>
+  
+  <text x="10" y="35" font-family="Poppins, Arial, sans-serif" font-size="30" font-weight="bold" fill="url(#smartGradient)">
+    Smart
+  </text>
+
+  <!-- "Verify" Text with Green Gradient -->
+  <defs>
+    <linearGradient id="verifyGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#00D3AB"/>
+      <stop offset="100%" stop-color="#00897B"/>
+    </linearGradient>
+  </defs>
+
+  <text x="100" y="35" font-family="Poppins, Arial, sans-serif" font-size="30" font-weight="bold" fill="url(#verifyGradient)">
+    Verify
+  </text>
+
+  <!-- Checkmark Circle - Shifted right to avoid overlap -->
+  <circle cx="195" cy="25" r="6" fill="#00D3AB"/>
+
+  <!-- Checkmark Symbol - Adjusted Position -->
+  <path d="M192 25 L195 28 L202 18" stroke="white" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>

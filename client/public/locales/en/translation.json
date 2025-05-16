@@ -1,0 +1,218 @@
+{
+    "welcome": "Welcome to our site",
+    "learn_more": "Learn More",
+  
+  
+    "step1": "Upload the document you want to sign.",
+    "step2": "Enter your name for the signature.",
+    "step3": "Click 'Send for Signing' to initiate the signing process.",
+    "step4": "Click 'Sign Now' to open the signing window.",
+    "step5": "Follow the instructions to complete the signing.",
+    "step": "Step",
+    "trusted_verification": "Trusted Verification",
+  "trusted_verification_desc": "Ensure authenticity with a secure and reliable verification process for sellers.",
+  
+  "secure_transactions": "Secure Transactions",
+  "secure_transactions_desc": "Enhance buyer confidence by verifying sellers before transactions.",
+  
+  "compliance_guaranteed": "Compliance Guaranteed",
+  "compliance_guaranteed_desc": "Meet industry standards with a seamless verification process.",
+  
+  "fraud_prevention": "Fraud Prevention",
+  "fraud_prevention_desc": "Reduce risks and prevent fraudulent activities with advanced verification checks.",
+  
+
+
+
+
+  
+  "verified":"Consent Form Verified and Uploaded ✅",
+  "failed":"Failed to upload document. ❌",
+  "please": "Please enter your name. ✏️",
+  "please2":"Please Check the consent box before signing",
+  "sent":"Signature request sent successfully! 📩",
+  "fail":"Failed to send signature request. ❌",
+  "preview":"Preview Document",
+  "read":"I have read and verified the consent preview",
+  "add":"Add Signature",  
+  "veri":"This name will be used to verify your credentials",
+  "seri":"You will get notified in this email after a successful signature",
+  "email":"Enter Email",
+  "name":"Enter Name",
+  "signnow":"Sign Now",
+  "sendf": "Send for Signing",
+  "viewg" :"View the guidelines before proceeding",
+  "comp": "Signature Complete",
+  "suck":"Your document has been signed successfully!",
+  "close":"Close"
+  ,
+    "dosHeader": "Do's",
+    "dontsHeader": "Don'ts",
+    "dos": [
+      "Face is well lit without any shadow and is in the center of the frame",
+      "Glasses if worn do not have glare"
+    ],
+    "donts": [
+      "There is a glare on your glasses",
+      "Eyes closed during the recording session",
+      "There is a shadow on your face"
+    ]
+  
+    ,
+      "notifications": {
+        "1": {
+          "title": "Maintenance request update",
+          "description": "The maintenance request for John Doe in Apartment 301 has been Completed. The issue was a leaking faucet in the kitchen.",
+          "time": "5h ago"
+        },
+        "2": {
+          "title": "Rent Payment Confirmation",
+          "description": "We have received the rent payment of $1,200 for Jane Smith in Apartment 102. The payment was processed successfully.",
+          "time": "7h ago"
+        },
+        "3": {
+          "title": "Lease Renewal Reminder",
+          "description": "The lease for Esther Howard in Apartment 308 is set to expire on October 15, 2023. Please take appropriate action.",
+          "time": "9h ago"
+        }
+      },
+
+
+      "instructions": {
+        "1": {
+          "title": "Step 1: Record Video Statement",
+          "description": "Record a video statement confirming your consent."
+        },
+        "2": {
+          "title": "Step 2: Digitally Sign The Consent form",
+          "description": "Digitally sign the consent form from our website."
+        },
+        "3": {
+          "title": "Step 3: AI Verification",
+          "description": "Await verification by our AI and proceed with the transaction."
+        }
+      }
+    
+    ,
+"instructions2": {
+      "lighting": {
+        "title": "Lighting & Quiet",
+        "description": "Ensure you're in a well-lit and quiet environment."
+      },
+      "start": {
+        "title": "Start When Ready",
+        "description": "Start recording when you are ready."
+      },
+      "speak": {
+        "title": "Speak Clearly",
+        "description": "Answer each question clearly and confidently."
+      },
+      "pause": {
+        "title": "Pause Naturally",
+        "description": "Speak naturally — it's okay to take a pause."
+      },
+      "look": {
+        "title": "Look at Camera",
+        "description": "Look at the camera while speaking."
+      },
+      "submit": {
+        "title": "Submit Recording",
+        "description": "Press the Submit button once all the questions are done."
+      }
+    },
+
+
+
+
+
+"Noti":"Notifications",
+"Caland":" Add all events to calendar",
+"details":"📌 Click on each event to see more details",
+"rec":"Record your Video consent verification",
+"cap":"Capture",
+"sap":"Stop",
+"sub":"Submit",
+"ai":"✅ AI Sentiment Analysis",
+"proceed":"Proceed with Verification",
+"seed":" Steps to Complete Verification",
+
+"title1":"SmartVerify: Secure & Transparent Online Registration",
+"instu":"A seamless, secure, and efficient way to verify identities using AI verification and blockchain technology.",
+"log":"Login",
+"reg":"Register",
+"ins2":"Why Choose Our Verification System?",
+
+
+
+
+
+
+
+
+  "signingSuccess": {
+    "title": "✅ Signature Completed Successfully!",
+    "redirect": "Redirecting back to the application..."
+  
+},
+
+  "verification": {
+    "title": "Great!",
+    "message": "Your Registration Has been verified successfully.",
+    "dashboardBtn": "Return to Dashboard",
+    "downloadBtn": "Download Receipt",
+    "downloadAlert": "Downloading receipt..."
+  
+},
+
+  "videoConsent": {
+    "questions": [
+      "What is your name?",
+      "Are you willing to sell this property that you register currently?",
+      "Thank you! You can submit the recording."
+    ],
+    "error": "Error accessing camera",
+    "startRecording": "Start Recording",
+    "stopRecording": "Stop Recording",
+    "uploading": "Uploading...",
+    "recordingSuccess": "Recording submitted successfully!",
+    "recordingFailed": "Failed to upload recording."
+  }
+,
+
+  "whyThisMatters": {
+    "title": "Why This Matters",
+    "intro": "In property transactions, especially those done remotely, it’s crucial to ensure that the {{seller}} is willingly and knowingly participating in the sale. In India, if a seller later claims they were {{coerced}}, the sale can be challenged in court — even years later.",
+    "issuesTitle": "Common issues include:",
+    "issues": [
+      "Family pressure or emotional manipulation",
+      "Fraud or impersonation using fake fingerprints or documents",
+      "Regret after undervalued sales, especially if land prices spike",
+      "Disputes within families over ancestral property"
+    ],
+    "conclusion": "Our system captures {{videoConsent}}, uses {{emotionAnalysis}}, and {{digitalSignatures}} to confirm voluntary action—boosting trust and reducing legal loopholes.",
+    "placeholders": {
+      "seller": "seller",
+      "coerced": "coerced or misled",
+      "videoConsent": "video consent",
+      "emotionAnalysis": "AI-based emotion analysis",
+      "digitalSignatures": "digital signatures"
+    }
+  },
+  
+    "appName": "SmartVerify",
+    "dashboard": "Dashboard",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "language": "Language",
+    "selectLanguage": "Select Language",
+    "english": "English",
+    "tamil": "Tamil"
+  
+  
+
+
+
+
+
+  }
