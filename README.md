@@ -83,16 +83,6 @@ The backend will run at localhost:5000
 
 ---
 
-## 🔗 Blockchain Service
-
-| Method | Endpoint                        | Description                                                     |
-|--------|----------------------------------|-----------------------------------------------------------------|
-| POST   | `/store-hash`                   | Interact with smart contract to store IPFS hash (CID)          |
-| GET    | `/verify/:userId`               | Verify if stored hash matches input data                       |
-| GET    | `/transactions/:txId`           | Fetch transaction metadata for legal/audit purposes            |
-
----
-
 ## 🕒 User Activity Timeline Service
 
 | Method | Endpoint                 | Description                             |
