@@ -7,7 +7,13 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+app.use(cors(
+  {
+    origin: "http://localhost:3000", // Update this to your frontend URL
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true, // Allow credentials if needed
+  }
+));
 app.use(express.json());
 app.use((req, res, next) => {
     res.setHeader("Cross-Origin-Opener-Policy", "same-origin");

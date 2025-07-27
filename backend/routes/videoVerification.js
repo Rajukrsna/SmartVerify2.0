@@ -34,6 +34,7 @@ const upload = multer({ storage });
 router.post('/upload', upload.single('file'), async (req, res) => {
     
     try {
+      console.log("ejhgijhero")
         const { userId } = req.body;
         const videoPath = req.file.path;
             const originalName = req.file.originalname;

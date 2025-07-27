@@ -144,7 +144,7 @@ const questions = t("videoConsent.questions", { returnObjects: true });
        formData.append('userId', userId);
 
        // ✅ 5. POST as multipart/form-data
-       const response = await axios.post("http://localhost:5000/api/video/upload", formData, {
+       const response = await axios.post(`${backendUrl}/api/video/upload`, formData, {
            headers: {
                'Content-Type': 'multipart/form-data'
            }

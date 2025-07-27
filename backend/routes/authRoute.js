@@ -23,7 +23,7 @@ async function generateConsentRecordId() {
 router.post("/register", async (req, res) => {
   const { name, email, password } = req.body;
   
-await metadata.save();
+
   try {
     const user = new User({ name, email, password });
     await user.save();
